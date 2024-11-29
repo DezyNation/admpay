@@ -93,7 +93,7 @@ const HeroSection = () => {
               href="tel:+919084533003"
               variant={"outline"}
               boxShadow={"md"}
-            ></Button>
+            >Contact Us</Button>
           </HStack>
         </Stack>
         <Box ml={{ base: 0, md: 5 }} pos="relative">
