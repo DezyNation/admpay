@@ -76,7 +76,7 @@ const HeroSection = () => {
           >
             <Button
               as={Link}
-              href="mailto:support@admpay.in"
+              href="mailto:anilch14@gmail.com"
               bgGradient="linear(to-l, #0ea5e9,#2563eb)"
               _hover={{
                 bgGradient: "linear(to-l, #0ea5e9,#2563eb)",
@@ -90,7 +90,7 @@ const HeroSection = () => {
             </Button>
             <Button
               as={Link}
-              href="tel:+919084533003"
+              href="/contact"
               variant={"outline"}
               boxShadow={"md"}
             >Contact Us</Button>

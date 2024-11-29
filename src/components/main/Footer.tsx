@@ -14,7 +14,8 @@ const links = [
   // { label: "Careers", url: "#" },
   // { label: "Sign Up", url: "#" },
   { label: "Terms & Conditions", url: "/tnc" },
-  { label: "Privacy Policy", url: "/privacy-policy" }
+  { label: "Privacy Policy", url: "/privacy-policy" },
+  { label: "Contact Us", url: "/contact" }
 ];
 const accounts = [
   {
@@ -70,9 +71,9 @@ const Footer = () => {
       {/* Mobile and Tablet Screens */}
       <Stack display={{ base: "flex", md: "none" }} alignItems="center">
         <HStack alignItems="center">
-          <CustomLink>Sign up</CustomLink>
+          <CustomLink href="contact">Contact Us</CustomLink>
           <Divider h="1rem" orientation="vertical" />
-          <CustomLink>Career</CustomLink>
+          {/* <CustomLink>Career</CustomLink> */}
         </HStack>
         <HStack alignItems="center">
           <CustomLink href="tnc">Terms & Conditions</CustomLink>
