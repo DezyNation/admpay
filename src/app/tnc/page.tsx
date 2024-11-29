@@ -2,7 +2,14 @@
 import React, { useEffect } from "react";
 import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
-import { Box, Heading, Text, Container } from "@chakra-ui/react";
+import {
+  Box,
+  Heading,
+  Text,
+  Container,
+  List,
+  ListItem,
+} from "@chakra-ui/react";
 
 const page = () => {
   // useEffect(() => {
@@ -28,142 +35,110 @@ const page = () => {
             fontSize={{ base: "md", md: "md" }}
             textAlign="justify"
           >
-            By accessing this webpage/Application, you are agreeing to be bound
-            by these Terms and Conditions (“Terms") in a legally binding
-            agreement between us (“Merchant”or“us” or “we”or“our” ) and the User
-            (“you” or “your”). Please read these Terms carefully before
-            accessing or using the Website/App. If you do not agree to the
-            Terms, you may not access the Platform. FOR APPOINTMENT AS
-            RETAILER/PARTNER/DISTRIBUTOR & SUPER DISTRIBUTOR These terms and
-            conditions (Terms and Conditions) shall apply to and govern the
-            commercial arrangement between ADMPay Technologies Pvt. Ltd. (herein
-            after referred as 'ADMPay') and the Retailer/ Partner /
-            Distributor/Super Distributor. These Terms and Conditions and any
-            attachments hereto represent the entire agreement between ADMPay and
-            the Retailer/ Partner / Distributor/Super Distributor and no changes
-            to the same are binding unless they are in writing and intimated by
-            the authorized representative of ADMPay. “ADMPay”is a digital
-            financial facilitation service provider, a company incorporated
-            under the Companies Act,, 2013 (18 of 2013 and rule 18 of the
-            Companies (Incorporation) Rules, 2014) having its registered office
-            at Hno 64 Kheriya Patal Sahara Khurd Iglas Aligarh Uttar
-            Pradesh-202124, INDIA (hereinafter referred to as the Company/ADMPay
-            which expression shall unless repugnant to the context or meaning
-            thereof mean and include its successors and permitted assigns).
+            These Terms and Conditions, along with privacy policy or other terms
+            (“Terms”) constitute a binding agreement by and between ADITYA
+            DIGITAL MONEY PRIVATE LIMITED, ( “Website Owner” or “we” or “us” or
+            “our”) and you (“you” or “your”) and relate to your use of our
+            website, goods (as applicable) or services (as applicable)
+            (collectively, “Services”). By using our website and availing the
+            Services, you agree that you have read and accepted these Terms
+            (including the Privacy Policy). We reserve the right to modify these
+            Terms at any time and without assigning any reason. It is your
+            responsibility to periodically review these Terms to stay informed
+            of updates. The use of this website or availing of our Services is
+            subject to the following terms of use:
           </Text>
 
-          <Heading
-            as="h2"
+          <List
+            as="ul"
             size={{ base: "md", md: "lg" }}
             mt={{ base: 6, md: 10 }}
             mb={{ base: 2, md: 4 }}
-          >
-            OPERATION OF THE RETAIL /Distributor/Super Distributor OUTLET
-          </Heading>
-          <Text
-            mb={{ base: 3, md: 4 }}
-            fontSize={{ base: "md", md: "lg" }}
-            textAlign="justify"
-          >
-            1.1 During the Term, the Retailer/ Partner / Distributor/Super
-            Distributor shall render the services (“Services”) of ADMPay, by and
-            through such of its officers, employees, agents, representatives and
-            affiliates as it shall designate, from time to time. Notwithstanding
-            anything contrary contained in these Terms and Conditions, ADMPay
-            shall have the right at any time, to modify, alter and amend the
-            lists of Services, including the manner, procedure, process in which
-            the Retailer/ Partner / Distributor/Super Distributor will be
-            required to perform the Services and the Retailer/ Partner /
-            Distributor/Super Distributor shall be bound by all such
-            modifications, alterations and amendments made by ADMPay. 1.2 The
-            Retailer/ Partner / Distributor/Super Distributor shall only market,
-            distribute sell or promote such ADMPay Services as are permitted
-            expressly by ADMPay. The Retailer/ Partner / Distributor/Super
-            Distributor shall not automatically have the right to market, sell,
-            distribute, or promote any product or service that may be provided
-            by other retail outlets, whether in the present or in the future. In
-            the event of any addition to the Services, ADMPay may, at its sole
-            discretion, intimate the Retailer/ Partner / Distributor/Super
-            Distributor that the Retailer/ Partner / Distributor/Super
-            Distributor is entitled to sell, market, distribute and promote such
-            product or service. ADMPay shall also have the right to direct the
-            Retailer/ Partner / Distributor/Super Distributor to discontinue
-            providing any of the ADMPay Services at the Retail Outlet without
-            assigning any reason whatsoever. 1.3 ADMPay shall specify to the
-            Retailer/ Partner / Distributor/Super Distributor, the necessary
-            infrastructure and equipment including but not limited to computer
-            terminals, peripherals attachments, internet and broadband
-            connectivity, mobile device and/or any such device with GPRS
-            connectivity, HTML enabled, which is compatible enough to run ADMPay
-            Software/Services etc, for effectively providing the ADMPay
-            Services, which the Retailer/ Partner / Distributor/Super
-            Distributor shall acquire at its sole expense. In case of the MPOS
-            Application, the Retailer/ Partner / Distributor/Super Distributor
-            shall be entitled to install the ADMPay Software on that particular
-            mobile device and/or any such other device, which is proposed to be
-            registered with ADMPay for availing ADMPay Services, and no other
-            mobile/device of the Retailer/ Partner / Distributor/Super
-            Distributor shall have such Software installed unless registered
-            under the terms and conditions of this Agreement. Further, the
-            Retailer/ Partner / Distributor/Super Distributor shall prominently
-            display the ADMPay signage, signboards, logos, etc at a prominent
-            place in the Retail Outlet, strictly in accordance with the
-            directions issued by ADMPay in this regard. 1.4 Upon satisfactory
-            installation and operation of the necessary equipment and
-            peripherals, ADMPay shall, subject to these Terms and Conditions,
-            install the necessary software and other ADMPay Intellectual
-            Property to enable the provision of the Services. All Services shall
-            be provided solely through the portal of ADMPay or are recorded
-            therein and no offline transactions are permitted and/or no such
-            fake/false receipts should be issued by the Retailer/ Partner /
-            Distributor/Super Distributor for the willful fraud transaction done
-            by the Retailer/ Partner / Distributor/Super Distributor which are
-            not transacted through ADMPay Software/portal. However, if any
-            Retailer/ Partner / Distributor/Super Distributor is found and/or
-            discovered doing any such malicious/wrong/willful/fraudulent acts
-            and/or offline transactions, it shall be liable and charged for such
-            civil/penal and criminal acts by and under but not limited to the
-            Indian Penal Code 1860 and Criminal Procedure Code 1973. 1.5 The
-            Retailer/ Partner / Distributor/Super Distributor shall obtain all
-            necessary license(s), permits and approvals for selling,
-            distributing, marketing and promoting the Services from the Retail
-            Outlet and shall bear all costs and incidental expenses incurred in
-            this regard, including without limitation all fees for application,
-            license fees, charges and taxes. 1.6 The Retailer/ Partner /
-            Distributor/Super Distributor shall keep the Retailer/ Partner /
-            Distributor/Super Distributor Outlet open for business during normal
-            business hours, or as permitted by law or such other time period as
-            ADMPay may specify from time to time. 1.7 The Retailer/ Partner /
-            Distributor/Super Distributor shall ensure that the Retail Outlet is
-            utilized for the purpose of rendering the Services in accordance
-            with these Terms and Conditions. The Retailer/ Partner /
-            Distributor/Super Distributor shall further ensure that and shall
-            not cause or permit (a) any material that may not be made available
-            to the public under applicable law, including without limitation any
-            vulgar, obscene, pornographic, misleading, defamatory, libelous,
-            offensive, derogatory, threatening, harassing, abusive or violent
-            content, to be made available in the Retail Outlet or (b) any
-            activities that are proscribed under law or reasonably considered to
-            be immoral or against public interest. 1.8 ADMPay may, at its sole
-            discretion and with or without consideration, provide training
-            manuals, technology support, ongoing advice and assistance to the
-            Retailer/ Partner / Distributor/Super Distributor and designated
-            employees of the Retailer/ Partner / Distributor/Super Distributor,
-            including, provision of brochures, pamphlets, charts, signboards,
-            signage and other materials for the purposes of advertisement,
-            promotion and marketing the Services. Any materials supplied by
-            ADMPay shall be utilized solely in relation to the provision of
-            Services and the Retailer/ Partner / Distributor/Super Distributor
-            shall ensure that such materials are not utilized for any other
-            purpose. 1.9 The Retailer/ Partner / Distributor/Super Distributor
-            shall not encroach/poach upon the areas of operation of other
-            neighboring Retailer/ Partner / Distributor/Super Distributors
-            appointed by ADMPay or act in any manner which will prejudice the
-            business prospects of neighboring Retailer/ Partner /
-            Distributor/Super Distributors appointed by ADMPay.
-          </Text>
-
-          <Heading
+          ></List>
+            <ul>
+              <li>
+                To access and use the Services, you agree to provide true,
+                accurate and complete information to us during and after
+                registration, and you shall be responsible for all acts done
+                through the use of your registered account.
+              </li>
+              <li>
+                Neither we nor any third parties provide any warranty or
+                guarantee as to the accuracy, timeliness, performance,
+                completeness or suitability of the information and materials
+                offered on this website or through the Services, for any
+                specific purpose. You acknowledge that such information and
+                materials may contain inaccuracies or errors and we expressly
+                exclude liability for any such inaccuracies or errors to the
+                fullest extent permitted by law.
+              </li>
+              <li>
+                Your use of our Services and the websiteis solely at your own
+                risk and discretion.. You are required to independently assess
+                and ensure that the Services meet your requirements.
+              </li>
+              <li>
+                The contents of the Website and the Services are proprietary to
+                Us and you will not have any authority to claim any intellectual
+                property rights, title, or interest in its contents.
+              </li>
+              <li>
+                You acknowledge that unauthorized use of the Website or the
+                Services may lead to action against you as per these Terms or
+                applicable laws.
+              </li>
+              <li>
+                You agree to pay us the charges associated with availing the
+                Services.
+              </li>
+              <li>
+                You agree not to use the website and/ or Services for any
+                purpose that is unlawful, illegal or forbidden by these Terms,
+                or Indian or local laws that might apply to you.
+              </li>
+              <li>
+                You agree and acknowledge that website and the Services may
+                contain links to other third party websites. On accessing these
+                links, you will be governed by the terms of use, privacy policy
+                and such other policies of such third party websites.
+              </li>
+              <li>
+                You understand that upon initiating a transaction for availing
+                the Services you are entering into a legally binding and
+                enforceable contract with the us for the Services.
+              </li>
+              <li>
+                You shall be entitled to claim a refund of the payment made by
+                you in case we are not able to provide the Service. The
+                timelines for such return and refund will be according to the
+                specific Service you have availed or within the time period
+                provided in our policies (as applicable). In case you do not
+                raise a refund claim within the stipulated time, than this would
+                make you ineligible for a refund.
+              </li>
+              <li>
+                Notwithstanding anything contained in these Terms, the parties
+                shall not be liable for any failure to perform an obligation
+                under these Terms if performance is prevented or delayed by a
+                force majeure event
+              </li>
+              <li>
+                These Terms and any dispute or claim relating to it, or its
+                enforceability, shall be governed by and construed in accordance
+                with the laws of India.
+              </li>
+              <li>
+                All disputes arising out of or in connection with these Terms
+                shall be subject to the exclusive jurisdiction of the courts in
+                Ghaziabad, Uttar Pradesh.
+              </li>
+              <li>
+                All concerns or communications relating to these Terms must be
+                communicated to us using the contact information provided on
+                this website.
+              </li>
+            </ul>
+          {/* <Heading
             as="h2"
             size={{ base: "md", md: "lg" }}
             mt={{ base: 6, md: 10 }}
@@ -583,7 +558,7 @@ const page = () => {
             Retailer/ Partner / Distributor/Super Distributor and shall not be
             disclosed to any third party, save and except with the prior written
             consent of the ADMPay.
-          </Text>
+          </Text> */}
         </Box>
       </Container>
       <Footer />
