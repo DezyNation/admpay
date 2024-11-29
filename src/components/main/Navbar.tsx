@@ -33,9 +33,7 @@ export default function WithSubnavigation() {
   const [services, setServices] = useState<any>([]);
 
   useEffect(() => {
-    const data = JSON.parse(
-      localStorage.getItem("services")
-    );
+    const data = JSON.parse(localStorage.getItem("services"));
     if (data) {
       setServices(data);
     }
@@ -101,7 +99,8 @@ export default function WithSubnavigation() {
           >
             Sign In
           </Button>
-          {services && services?.find(
+          {services &&
+          services?.find(
             (item: any) =>
               item?.provider == "portal" && item?.name == "allow_signup"
           )?.status ? (
@@ -309,7 +308,7 @@ const NAV_ITEMS: Array<NavItem> = [
       {
         label: "Payouts",
         subLabel: "Transfer payments pan India",
-        href: "#",
+        href: "/auth/login",
       },
       // {
       //   label: "PAN Card",
@@ -317,6 +316,34 @@ const NAV_ITEMS: Array<NavItem> = [
       //   href: "#",
       // },
     ],
+  },
+  {
+    label: "Contact Details",
+    children: [
+      {
+        label: "Phone Number",
+        subLabel: "+91 90845 33003",
+      },
+      {
+        label: "Email Address",
+        subLabel: "support@admpay.in",
+      },
+    ],
+  },
+  {
+    label: "Policies",
+    children: [
+      {
+        label: "Privacy Policy",
+        subLabel: "Go through our Privacy Policy",
+        href: "/privacy-policy",
+      },
+      {
+        label: "Terms & Conditions",
+        subLabel: "Read our Terms and Conditions",
+        href: "/tnc",
+      },
+    ]
   },
   // {
   //   label: "API Providers",
