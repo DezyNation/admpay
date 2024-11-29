@@ -66,8 +66,8 @@ const HeroSection = () => {
             fontWeight="400"
             color="gray.500"
           >
-            ADMPay is the one stop solution to all of your Vendor Payment needs. Join
-            us and enjoy amazing benefits!
+            ADMPay is the one stop solution to all of your Vendor Payment needs.
+            Join us and enjoy amazing benefits!
           </Text>
           <HStack
             spacing={{ base: 0, sm: 2, md: 4 }}
@@ -75,6 +75,8 @@ const HeroSection = () => {
             flexWrap="wrap"
           >
             <Button
+              as={Link}
+              href="mailto:support@admpay.in"
               bgGradient="linear(to-l, #0ea5e9,#2563eb)"
               _hover={{
                 bgGradient: "linear(to-l, #0ea5e9,#2563eb)",
@@ -82,16 +84,16 @@ const HeroSection = () => {
               }}
               rightIcon={<MdBolt />}
               color={"#FFF"}
-              boxShadow={'md'}
+              boxShadow={"md"}
             >
-              Contact Us
+              Mail Us
             </Button>
-            {/* <Button
-              variant={'outline'}
-              boxShadow={'md'}
-            >
-              Watch Video
-            </Button> */}
+            <Button
+              as={Link}
+              href="tel:+919084533003"
+              variant={"outline"}
+              boxShadow={"md"}
+            ></Button>
           </HStack>
         </Stack>
         <Box ml={{ base: 0, md: 5 }} pos="relative">
